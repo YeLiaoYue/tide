@@ -1,0 +1,86 @@
+.concentration-box,
+.rest-box,
+.breathe-pattern {
+    .van-picker {
+        position: relative;
+        width: 60vw;
+        height: 60vw;
+        padding: 50rem 0;
+        margin: 0 auto;
+        border: 1px solid rgba(255, 255, 255, .5);
+        border-radius: 50%;
+        background-color: #a8a9a3;
+        user-select: none;
+        box-sizing: border-box;
+
+        &__frame {
+            display: none;
+        }
+
+        &__mask {
+            background-image: none;
+        }
+
+        &-column {
+
+            &__item {
+                font-size: 26rem;
+                color: rgba(255, 255, 255, .5);
+
+                &--selected {
+                    color: #fff;
+                }
+
+            }
+        }
+    }
+
+}
+
+.rest-box {
+    .van-picker {
+        border: 5px dotted rgba(255, 255, 255, .3);
+    }
+}
+
+@count-down-text-color: #fff;
+@count-down-font-size: 28rem;
+@password-input-height: 55rem;
+@password-input-background-color: rgba(0,0,0,.1);
+
+.sleep-box {
+    .van-picker {
+        margin-top: 115rem;
+        background-color: #60605c;
+        padding: 0 75rem 0 125rem;
+        box-sizing: border-box;
+
+        &__frame {
+            display: none;
+        }
+
+        &__mask {
+            background-image: none;
+        }
+
+        &-column {
+            font-size: 24rem;
+
+            &__item {
+                color: rgba(255, 255, 255, .5);
+
+                &--selected {
+                    color: #fff;
+                }
+
+            }
+        }
+    }
+}
+
+.breathe-pattern {
+    .van-picker {
+        border: none;
+        background-color: #5ed075;
+    }
+}
